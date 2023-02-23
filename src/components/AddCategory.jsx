@@ -7,7 +7,7 @@ const onChangeInput = ({target}) => {
     setInputValue(target.value);
 }
 const onSubmit = (event) => {
-    event.preventDefault(event);
+    event.preventDefault()
     console.log(inputValue);
 }
   return (
